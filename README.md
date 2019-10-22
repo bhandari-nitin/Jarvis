@@ -26,8 +26,8 @@
    3. **Tools**\
         Jarvis uses [Flightaware API](https://flightaware.com/commercial/flightxml/) to fetch the status of the flights once the user provides the flight details. 
 
-   4. **Product Requirements**\
-        One of the important steps in this strategy is documenting product requirements and is focused precisely on shaping a chatbot idea into a working project. I am using **User Stories Framework** to document requirements.The idea behind is to be in your customer's shoes and that will give a prespective of their expectations from the product, in this case Jarvis. 
+   4. **Product Requirements/Scope**\
+        One of the important steps in this strategy is documenting product requirements and is focused precisely on shaping a chatbot idea into a working project. I am using **User Stories Framework** to document requirements.The idea behind **high-level user-stories**  is to be in your customer's shoes and that will give a prespective of their expectations from the product, in this case Jarvis. 
         
         **As a** Customer **(who)**
         - **I need** Jarvis to provide me the status of a flight  **(what)** **so that** I can be at airport on time **(why)**. 
@@ -36,20 +36,15 @@
         
         **As a** Customer Facing Engineer 
         - **I need** blah blah **so that**
-        - **I need** blah blah **so that**
-        - **I need** blah blah **so that**
-        
+       
         **As a** Support Manager 
         - **I need** blah blah **so that**
-        - **I need** blah blah **so that**
-        - **I need** blah blah **so that**
-
 
    5. **Prioritize expectations from the chatbot**\
         Since this is a functional demo and we are just asking Jarvis one special task, from a customer point of view, I would expect Jarvis to provide the status of the flight whenever asked. 
 
    6. **Design a Conversational Flow**\
-        Chatbots needs to plan their dialog use cases in advance to engage with the user and do not get lost in the conversation. The most important feature is to create a **personality** of the chatbot that is consistent throughout the engagement. 
+        Chatbots needs to plan their dialog use cases in advance to engage with the user and do not get lost in the conversation. The most important feature is to create a **personality** of the chatbot that is consistent throughout the engagement. Conversational flow is a dialog tree sure every user request is covered by some part of the bot’s logics. 
         
          1. **User Onboarding**  
          - Chatbot should give an introduction along with quick overview of it's abilities
