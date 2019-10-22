@@ -51,28 +51,27 @@
    6. **Design a Conversational Flow**\
         Chatbots needs to plan their dialog use cases in advance to engage with the user and do not get lost in the conversation. The most important feature is to create a **personality** of the chatbot that is consistent throughout the engagement. 
         
-         1. User Onboarding\ 
-          - Chatbot should give an introduction along with quick overview of it's abilities
+         1. User Onboarding  
+         - Chatbot should give an introduction along with quick overview of it's abilities
           
-         2. Minimize user effort\
+         2. Minimize user effort
          - To minimize user effort, we need to design the conversational flows to get most information from the user in an efficient way
          
-         3. Confirm Understanding\
+         3. Confirm Understanding
          - Keeping user informed at each step of the conversation is crucial to prevent any ambiguity. 
          
-         4. Design the dialog in a optimized way\
+         4. Design the dialog in a optimized way
          - Responses/questions should be precise and straightforward sentences/questions
          - Avoiding open-ended questions
          - Following the natural flow of a conversation
          - Diversify bot's replies whenever possible 
          
-         5. Be consistent with Bot's persona\
+         5. Be consistent with Bot's persona
          - Use the communication style to stay consistent with the chatbot's personality
          
-         6. Provide visual clues\
+         6. Provide visual clues
          - It's a good idea to add visual cards when explaining the difference between several things or products
        
-
    7. **Monitor the analytics once deployed to the customers**\
         This is a future step to incorporate, analyzing failure issues and patterns backtracking to imporvising intents, utterances, etc. 
   
