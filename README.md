@@ -2,7 +2,6 @@
 
 ## Introduction 
 > This is a conversational bot using IBM Watson API for <project> integrated with slack and uses [**Flightware API**](https://flightaware.com/commercial/flightxml/) to check on the status of a flight. 
----
 
 ### Documentaion
 - [Ideation and Scoping](#ideation-and-scoping)
@@ -12,7 +11,7 @@
 - [Use of Advanced NLP Features](#use-of-advanced-nlp-features)
 - [Quality Assurance](#quality-assurance)
 
-1.  #### Ideation and Scoping (20 pts)
+#### Ideation and Scoping (20 pts)
   - [x] Documentation of ideation, content, and functionality
   - [ ] Documentaion of Scope in format of User Stories/other format of your choice
   
@@ -78,27 +77,27 @@
         This is a future step to incorporate, analyzing failure issues and patterns backtracking to imporvising intents, utterances, etc. 
   
 
-2. #### Content (20 pts)
+#### Content (20 pts)
   - [ ] Creativity of creating the dialog to develop orignal conversational content
   - _Note: The output is the spoken and not displayed as text on screen. People generally speak differently than how they write_
  
-3. #### Intents (20 pts)
+#### Intents (20 pts)
   - [ ] Optimize the sample intents to capture the most common ways someone may say a certian intent, while using **no more than 10 unique intents**
 
-4. #### API Integration (20 pts)
+#### API Integration (20 pts)
   - [ ] Syntax, following the Object Oriented Principles, and general convention / best practices of the selected microservice language. 
   - [ ] Proper Implementation of RESTful or SOAP API, taking into account a reasonable range of scenarios and parameters. 
   - [ ] Implement error handling that produces a user friendly message
   - [ ] Transform JSON/XML data to a string that can be spoken in the target human language
 
-5. #### Use of Advanced NLP Features (10 pts)
+#### Use of Advanced NLP Features (10 pts)
   - [ ] Proper implementation of at least two of the following advanced NLP features:
        - [ ] Digressions
        - [ ] Pattern Entities
        - [ ] Slots / Variables
        - [ ] Dual simultaneous Intents / Follow-Up Intents
 
-6. #### Quality Assurance (10 pts)
+#### Quality Assurance (10 pts)
   - [ ] Overall quality of the final corpus and user experience
   - _Note: Generally the measurement for this would be how many unexpected errors or behaviours were encountered_ 
 
