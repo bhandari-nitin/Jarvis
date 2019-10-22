@@ -29,8 +29,8 @@
    4. **Product Requirements**\
         One of the important steps in this strategy is documenting product requirements and is focused precisely on shaping a chatbot idea into a working project. I am using **User Stories Framework** to document requirements.The idea behind is to be in your customer's shoes and that will give a prespective of their expectations from the product, in this case Jarvis. 
         
-        **As a** Customer 
-        - **I need** Jarvis to provide me the status of a flight **so that** I can be at airport on time. 
+        **As a** Customer **(who)**
+        - **I need** Jarvis to provide me the status of a flight  **(what)** **so that** I can be at airport on time **(why)**. 
         - **I need** blah blah **so that**
         - **I need** blah blah **so that**
         
