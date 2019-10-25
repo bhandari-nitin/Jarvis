@@ -1,7 +1,7 @@
 # Jarvis - The ChatBot
 
 ## Introduction 
-> This is a conversational bot using IBM Watson API for <project> integrated with slack and uses [**Flightware API**](https://flightaware.com/commercial/flightxml/) to check on the status of a flight. 
+> This is a conversational bot using IBM Watson API for getting doctor-recommendations based on location integrated with slack and uses [**BetterDoctor API**](https://developer.betterdoctor.com/documentation15).
 
 ### Documentaion
 - [Ideation and Scoping](#ideation-and-scoping)
@@ -18,26 +18,20 @@
   Turning a chatbot idea requires a complete step-by-step chatbot strategy from goal defination to publishing and maintainence. 
   
    1. **Defining Goals**\
-        Jarvis will connect to Flightware API to check on the status of a flight. Creating a chatbot there are many things to     define before starting
+        Jarvis will connect to BetterDoctor API to recommend doctors based on the location. Creating a chatbot there are many things to define before starting
 
    2. **Understand Users**\
-        `Assumption:` The users of this bot are people who like to go on holidays and people who fly frequently, so they might ask Jarvis to check the status of their flight. 
+        We generally try to understand the user-base to keep the conversational dialog consistent and use/not use different slangs as well. 
 
    3. **Tools**\
-        Jarvis uses [Flightaware API](https://flightaware.com/commercial/flightxml/) to fetch the status of the flights once the user provides the flight details. 
+        Jarvis uses [Better Doctor API](https://developer.betterdoctor.com/documentation15) to recommend doctors bases on location, and is based on IBM's Watson Assistant and IBM's Cloud Functions to write the Python script to fetch the results from the BetterDoctor API.
 
    4. **Product Requirements/Scope**\
         One of the important steps in this strategy is documenting product requirements and is focused precisely on shaping a chatbot idea into a working project. I am using **User Stories Framework** to document requirements.The idea behind **high-level user-stories**  is to be in your customer's shoes and that will give a prespective of their expectations from the product, in this case Jarvis. 
         
         **As a** Customer **(who)**
-        - **I need** Jarvis to provide me the status of a flight  **(what)** **so that** I can be at airport on time **(why)**. 
+        - **I need** Jarvis to recommend me doctors based on location I provide  **(what) so that** I can be at airport on time **(why)**
         - **I need** blah blah **so that**
-        - **I need** blah blah **so that**
-        
-        **As a** Customer Facing Engineer 
-        - **I need** blah blah **so that**
-       
-        **As a** Support Manager 
         - **I need** blah blah **so that**
 
    5. **Prioritize expectations from the chatbot**\
@@ -49,8 +43,14 @@
          1. **User Onboarding**  
          - Chatbot should give an introduction along with quick overview of it's abilities
           
-         2. **Minimize user effort**
-         - To minimize user effort, we need to design the conversational flows to get most information from the user in an efficient way
+         2. **Intents**
+         - We want Jarvis to handle user-intents related:
+         - #Greetings/Introduction
+         - #Get Doctor's Information
+         - #Escalate
+         - #Disambiguate
+         - #Good Bye
+         - #Thank You
          
          3. **Confirm Understanding**
          - Keeping user informed at each step of the conversation is crucial to prevent any ambiguity. 
@@ -76,7 +76,7 @@
   - _Note: The output is the spoken and not displayed as text on screen. People generally speak differently than how they write_
  
 ### Intents
-  - [ ] Optimize the sample intents to capture the most common ways someone may say a certian intent, while using **no more than 10 unique intents**
+  - [x] Optimize the sample intents to capture the most common ways someone may say a certian intent, while using **no more than 10 unique intents**
 
 ### API Integration
   - [ ] Syntax, following the Object Oriented Principles, and general convention / best practices of the selected microservice language. 
