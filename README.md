@@ -13,7 +13,7 @@
 
 ### Ideation and Scoping
   - [x] Documentation of ideation, content, and functionality
-  - [ ] Documentaion of Scope in format of User Stories/other format of your choice
+  - [x] Documentaion of Scope in format of User Stories/other format of your choice
   
   Turning a chatbot idea requires a complete step-by-step chatbot strategy from goal defination to publishing and maintainence. 
   
@@ -72,23 +72,23 @@
   
 
 ### Content
-  - [ ] Creativity of creating the dialog to develop orignal conversational content
+  - [x] Creativity of creating the dialog to develop orignal conversational content
   - _Note: The output is the spoken and not displayed as text on screen. People generally speak differently than how they write_
  
 ### Intents
   - [x] Optimize the sample intents to capture the most common ways someone may say a certian intent, while using **no more than 10 unique intents**
 
 ### API Integration
-  - [ ] Syntax, following the Object Oriented Principles, and general convention / best practices of the selected microservice language. 
-  - [ ] Proper Implementation of RESTful or SOAP API, taking into account a reasonable range of scenarios and parameters. 
-  - [ ] Implement error handling that produces a user friendly message
+  - [x] Syntax, following the Object Oriented Principles, and general convention / best practices of the selected microservice language. 
+  - [x] Proper Implementation of RESTful or SOAP API, taking into account a reasonable range of scenarios and parameters. 
+  - [x] Implement error handling that produces a user friendly message
   - [ ] Transform JSON/XML data to a string that can be spoken in the target human language
 
 ### Use of Advanced NLP Features
   - [ ] Proper implementation of at least two of the following advanced NLP features:
        - [ ] Digressions
-       - [ ] Pattern Entities
-       - [ ] Slots / Variables
+       - [x] Pattern Entities
+       - [x] Slots / Variables
        - [ ] Dual simultaneous Intents / Follow-Up Intents
 
 ### Quality Assurance
