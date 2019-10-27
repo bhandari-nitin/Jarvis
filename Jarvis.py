@@ -1,13 +1,10 @@
-#
-#
 #!/usr/bin/env python
 # coding: utf-8
-# main() will be run when you invoke this action
+# 
 #
 # @param Cloud Functions actions accept a single parameter, which must be a JSON object.
 #
 # @return The output of this action, which must be a JSON object.
-#
 
 __author__ = 'Nitn Bhandari'
 __email__ = 'nitinbhandari.cs@gmail.com'
