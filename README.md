@@ -25,12 +25,12 @@
 
    3. **Tools**
         * Jarvis is IMB Watson Assitant based conversational-bot that uses [Better Doctor API](https://developer.betterdoctor.com/documentation15) hosted on IBM Cloud Function to recommend doctors bases on location provided by user.
-        **Tools and Tech: ** Python3, IBM Cloud Functions, IBM Watson Assitant
+        * Tools and Tech: Python3, IBM Cloud Functions, IBM Watson Assitant
 
    4. **Product Requirements/Scope**
-        * One of the important steps in this strategy is documenting product requirements and is focused precisely on shaping a chatbot idea into a working project. I am using **User Stories Framework** to document requirements.The idea behind **high-level user-stories**  is to be in your customer's shoes and that will give a prespective of their expectations from the product, in this case Jarvis. 
+        * One of the important steps in this strategy is documenting product requirements and is focused precisely on shaping a chatbot idea into a working project. I am using **User Stories Framework** to document requirements. The idea behind **high-level user-stories**  is to be in your customer's shoes and that will give a prespective of their expectations from the product, in this case Jarvis. 
         
-        **As a** Customer **(who)**
+        **As a** Customer **(who):**
         - **I need** Jarvis to recommend me doctors based on location I provide **(what) so that** I am educated about doctors filtered as per my location preferences **(why)**
         - **I need** Jarvis to have additonal facility to get doctors based on location as well as speciality **(what)so that** I can get results filterd on locaiton and speciality **(why)**
 
@@ -61,14 +61,21 @@
                   - **@Phone_Number:** Pattern Enitity to extract phone-numbers used with IBM Watson Assitant's advanced feature **Pattern Matching** that enforces phone number to be in format xxx-xxx-xxxx.
                   - **@Speciality:** Additional entity to extend bot's ability to filter results by doctor's specialitites 
          
-         
          4. **Context Variables**
               - Using context variables assitant can pass information to the dialog nodes or even can be used as parameters to communicate with backend services and/or third-party APIs. I created the following context-variables:
                 - **agentCounter:** This variable keeps a track of number of times Jarvis is unable to understand the request and gets incremented every time and if the counter > 2, it transfers to an user-agent
                 - **my_creds:** This variable just stores the IBM Cloud Functions Namespace credentials
-                - 
          
          5. **Design the dialog in a optimized way**
+            * Dialog Nodes
+              - Dialog Node flows in-order, therefore order matters:
+                  - Welcome
+                  - Get Location-Based Doctor Info
+                  - Escalate to an agent
+                  - Chit Chat
+                  - Anything Else
+              
+            * Dialog Practices
               - Responses/questions should be precise and straightforward sentences/questions
               - Avoiding open-ended questions
               - Following the natural flow of a conversation
