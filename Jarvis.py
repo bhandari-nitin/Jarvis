@@ -22,7 +22,7 @@ class GetDoctorInfo(object):
     def get_coordinates(self):
         self.address = self.address.strip().replace(' ', '+')
 
-        google_maps_api_key = 'AIzaSyCnlLqSJhK7PPgPaa69gj7UaHdeKHN7es0'
+        google_maps_api_key = 'Insert you Google Maps API key here'
         google_maps_reverse_geocode_url = 'https://maps.googleapis.com/maps/api/geocode/json'
         maps_params = {'address': self.address,
                        'key': google_maps_api_key}
@@ -39,7 +39,7 @@ class GetDoctorInfo(object):
         return coordinates
 
     def get_doctors_info(self, coordinates):
-        better_doctor_api_key = '3d75d15626810e1edf67533f5b18611e'
+        better_doctor_api_key = 'Insert your BetterDoctor API keyhere'
         better_doctor_url = 'https://api.betterdoctor.com/2016-03-01/doctors'
         betterdoctor_params = {'user_key': better_doctor_api_key,
                                'location': coordinates,
