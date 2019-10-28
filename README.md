@@ -103,10 +103,10 @@
 
 ### Use of Advanced NLP Features
    - [ ] Proper implementation of at least two of the following advanced NLP features:
-          - [ ] Digressions
-          - [x] Pattern Entities
-          - [x] Slots / Variables
-          - [ ] Dual simultaneous Intents / Follow-Up Intents
+   - [ ] Digressions
+   - [x] Pattern Entities
+   - [x] Slots / Variables
+   - [ ] Dual simultaneous Intents / Follow-Up Intents
 
 ### Quality Assurance
    - [x] Overall quality of the final corpus and user experience
