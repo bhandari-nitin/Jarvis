@@ -49,9 +49,9 @@
                   - **#talk_to_agent:** This intent will handle requests if user needs to talk to an agent 
                   - **#cancel :** In case user needs to cancel the request
                   - **Chit Chat:** For the purpose of chit-chat, I made 3 more intents. 
-                        - **#greetings**
-                        - **#goodbyes**
-                        - **#Thank You**
+                     - **#greetings**
+                     - **#goodbyes**
+                     - **#Thank You**
          
          3. **Entities**
               - Next as per the use-case we need to create entities that store informaiton from the user related to intents and that provide specific context to intents. IBM Watson Assistant provide system level entities as well that we can enable and the assistant will detect the entities automatically. For this use-case, I used/created following system/entites:
