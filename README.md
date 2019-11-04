@@ -64,8 +64,10 @@
          
          4. **Context Variables**
               - Using context variables assitant can pass information to the dialog nodes or even can be used as parameters to communicate with backend services and/or third-party APIs. I created the following context-variables:
-                - **agentCounter:** This variable keeps a track of number of times Jarvis is unable to understand the request and gets incremented every time and if the counter > 2, it transfers to an user-agent
-                - **my_creds:** This variable just stores the IBM Cloud Functions Namespace credentials
+                - **$agentCounter:** This variable keeps a track of number of times Jarvis is unable to understand the request and gets incremented every time and if the counter > 2, it transfers to an user-agent
+                - **$address:** This variable stores the address which is passed to the dialog node calling the cloud function
+                - **$Phone_Number:** This variable will store the value of the phone number in case user selects the option to send updates to their phone
+                - **$my_creds:** This variable just stores the IBM Cloud Functions Namespace credentials
          
          5. **Design the dialog in a optimized way**
             * Dialog Nodes
