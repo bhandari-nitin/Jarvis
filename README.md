@@ -70,7 +70,7 @@
                 - **$my_creds:** This variable just stores the IBM Cloud Functions Namespace credentials
          
          5. **Design the dialog in a optimized way**
-            * Dialog Nodes
+            * **Dialog Nodes**
               - Dialog Node flows in-order, therefore order matters:
                   - Welcome
                   - Get Location-Based Doctor Info
@@ -78,10 +78,11 @@
                   - Chit Chat
                   - Anything Else
               
-            * Dialog Practices
+            * **Dialog/Conversational Design Practices**
               - Responses/questions should be precise and straightforward sentences/questions
               - Avoiding open-ended questions
               - Following the natural flow of a conversation
+              - Have a fall-back/backup intent always
               - Diversify bot's replies whenever possible 
          
          6. **Be consistent with Bot's persona**
