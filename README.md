@@ -1,7 +1,7 @@
 # Jarvis - The ChatBot
 
 ## Introduction 
-> Jarvis is a functional-demo conversational bot using IBM Watson Assitant for getting doctor-recommendations based on location integrated with slack and uses [**BetterDoctor API**](https://developer.betterdoctor.com/documentation15) as third-party API.
+> Jarvis is a functional-demo conversational bot using IBM Watson Assitant and IBM Cloud Function for recommending doctor-recommendations based on location integrated with slack and uses [**BetterDoctor API**](https://developer.betterdoctor.com/documentation15) as third-party API.
 
 ### Documentaion
    - [Ideation and Scoping](#ideation-and-scoping)
@@ -36,7 +36,7 @@
         - **I need** Jarvis to have additonal facility to get doctors based on location as well as speciality **(what)so that** I can get results filterd on locaiton and speciality **(why)**
 
    5. **Prioritize expectations from the chatbot**
-        * Since this is a functional demo and we are just asking Jarvis one special task, from a customer point of view, I would expect Jarvis to provide the status of the flight whenever asked. 
+        * Since this is a functional demo and we are just asking Jarvis one special task, from a customer point of view, I would expect Jarvis to get the details of the doctor practices near the location I provide. 
 
    6. **Design a Conversational Design Flow**
         * Chatbots needs to plan their dialog use cases in advance to engage with the user and do not get lost in the conversation. The most important feature is to create a **personality** of the chatbot that is consistent throughout the engagement. Conversational flow is a dialog tree sure every user request is covered by some part of the bot’s logics. 
