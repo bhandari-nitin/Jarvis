@@ -24,14 +24,15 @@
          * We generally try to understand the user-base to keep the conversational dialog consistent and use/not use different slangs as well. 
 
    3. **Tools**
-        * Jarvis is IMB Watson Assitant based conversational-bot that uses [Better Doctor API](https://developer.betterdoctor.com/documentation15) hosted on IBM Cloud Function to recommend doctors bases on location provided by user.
-        * Tools and Tech: Python3, IBM Cloud Functions, IBM Watson Assitant
+        * Jarvis is IMB Watson Assitant based conversational-bot that uses [Better Doctor API](https://developer.betterdoctor.com/documentation15) hosted on IBM Cloud Function to recommend doctors bases on location provided by user. Better Doctor API takes the location parameter as coordinates, so the address is first fed to Google Maps API to reverse geocode into geographic coordinates and then fed to Better Doctor API.   
+        * **Tools and Tech:** Python3, IBM Cloud Functions, IBM Watson Assitant, Better Doctor API, Google Maps API
 
    4. **Product Requirements/Scope**
         * One of the important steps in this strategy is documenting product requirements and is focused precisely on shaping a chatbot idea into a working project. I am using **User Stories Framework** to document requirements. The idea behind **high-level user-stories**  is to be in your customer's shoes and that will give a prespective of their expectations from the product, in this case Jarvis. 
         
         **As a** Customer **(who):**
         - **I need** Jarvis to recommend me doctors based on location I provide **(what) so that** I am educated about doctors filtered as per my location preferences **(why)**
+        - **I need** Jarvis to send updates on my phone **(what)so that** I can save it on my phone **(why)**
         - **I need** Jarvis to have additonal facility to get doctors based on location as well as speciality **(what)so that** I can get results filterd on locaiton and speciality **(why)**
 
    5. **Prioritize expectations from the chatbot**
