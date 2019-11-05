@@ -69,9 +69,9 @@
                 - **$Phone_Number:** This variable will store the value of the phone number in case user selects the option to send updates to their phone
                 - **$my_creds:** This variable just stores the IBM Cloud Functions Namespace credentials
          
-         5. **Design the dialog in a optimized way**
+         5. **Design the dialog**
             * **Dialog Nodes**
-              - Dialog Node flows in-order, therefore order matters:
+              - Dialog Node flows in-order, therefore order matters, followig are the dialog nodes in Jarvis:
                   - Welcome
                   - Get Location-Based Doctor Info
                   - Escalate to an agent
