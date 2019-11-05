@@ -1,7 +1,7 @@
 # Jarvis - The ChatBot
 
 ## Introduction 
-> Jarvis is a functional-demo conversational bot using IBM Watson Assitant and IBM Cloud Function for recommending doctor-recommendations based on location integrated with slack and uses [**BetterDoctor API**](https://developer.betterdoctor.com/documentation15) as third-party API.
+> Jarvis is a functional-demo conversational bot using IBM Watson Assitant and IBM Cloud Function for recommending doctor-recommendations based on location integrated with slack and uses [**BetterDoctor API**](https://developer.betterdoctor.com/documentation15) and [**Google Maps API**](https://cloud.google.com/maps-platform/) as third-party APIs.
 
 ### Documentaion
    - [Ideation and Scoping](#ideation-and-scoping)
